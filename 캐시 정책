@@ -1,0 +1,10 @@
+### url session 캐시 정책
+
+```
+- useProtocolCachePolicy : 프로토콜의 정의에 따라 맞춰지는 캐시 정책
+- reloadIgnoringLocalCacheData : 로컬 캐시를 무시한다
+- returnCacheDataDontLoad : 항상 캐시데이터를 사용함
+- returnCacheDataElseLoad : 캐시가 저장되어있으면 사용하고 저장되어 있지 않으면 네트워크에 연결
+
+캐시를 사용하려면 최신데이터를 유지하는것이 중요
+```
